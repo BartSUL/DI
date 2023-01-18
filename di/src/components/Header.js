@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="navigation">
+    <div className="h-[100vh] bg-slate-900">
       <ul>
         <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
           <li>Home page</li>
